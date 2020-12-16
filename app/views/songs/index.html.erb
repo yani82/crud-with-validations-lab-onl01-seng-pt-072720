@@ -21,9 +21,9 @@
             <td><%= s.genre %></td>
             <td><%= s.artist_name %></td>
             <td>
-                <%= link_to 'View', song %>
-                <%= link_to 'Edit', edit_song_path(song) %>
-                <%= link_to 'Delete', song, method: :delete, data: { confirm: 'For real?' } %>
+                <%= link_to 'View', s %>
+                <%= link_to 'Edit', edit_song_path(s) %>
+                <%= link_to 'Delete', s, method: :delete, data: { confirm: 'For real?' } %>
                 </td> 
         </tr>
         <% end %>
